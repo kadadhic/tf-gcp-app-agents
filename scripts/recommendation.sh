@@ -8,8 +8,8 @@ sudo apt install unzip
 git clone https://github.com/kadadhic/tf-gcp-app-agents.git
 mkdir app/
 mkdir app/templates
-cp tfm-demo-app-agents/source/recommend.py app/app.py
-cp tfm-demo-app-agents/source/templates/recommended.json app/templates/
+cp tf-gcp-app-agents/source/recommend.py app/app.py
+cp tf-gcp-app-agents/source/templates/recommended.json app/templates/
 cd app
 flask run  --host=0.0.0.0 -p 8991&
 
